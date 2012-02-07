@@ -1,0 +1,20 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'test' ]
+info using npm@1.0.94
+info using node@v0.4.8
+verbose config file /Users/tauren/.npmrc
+verbose config file /usr/local/etc/npmrc
+ERR! Error: ENOENT, No such file or directory '/Users/tauren/github/tauren/backbone-repository/test/package.json'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "test"
+ERR! cwd /Users/tauren/github/tauren/backbone-repository/test
+ERR! node -v v0.4.8
+ERR! npm -v 1.0.94
+ERR! path /Users/tauren/github/tauren/backbone-repository/test/package.json
+ERR! code ENOENT
+verbose exit [ 1, true ]
